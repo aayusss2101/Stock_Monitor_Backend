@@ -1,0 +1,23 @@
+{
+  "name": "stockmonitor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=cloud-functions:* npm run devstart"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "decimal.js": "^10.2.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.11.18",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
